@@ -26,7 +26,7 @@ class Blockchain {
   }
 
   constructor() {
-    // Create the genesis block.
+    //* СОЗДАНИЕ ГЕНЕЗИС БЛОКА
     this.chain.push(new Block(0, "0", Date.now(), "Genesis block"));
   }
 
@@ -42,7 +42,7 @@ class Blockchain {
   }
 }
 
-console.log("Creating the blockchain with the genesis block...");
+console.log("Создание блокчейна с генезис блока...");
 const blockchain = new Blockchain();
 
 console.log("Mining block #1...");
